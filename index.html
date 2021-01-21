@@ -3,25 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./resources/reset.css" rel="stylesheet" media="all">
     <link rel="stylesheet" href="./resources/index.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>LikeGoogle</title>
 </head>
 <body>
-    <div id="nav-bar">
-        <ul>
-            <li><a href=# id="sign-in">Sign in</a></li>
-            <li><a href=#>Google Apps</a></li>
-            <li><a href="https://www.google.pt/imghp?hl=pt-PT&tab=wi&authuser=0&ogbl">Imagens</a></li>
-            <li><a href="https://mail.google.com/mail/">Gmail</a></li>  
-        </ul>
-    </div>
+    <header>
+        <nav id="nav-bar">
+            <ul>
+                <li><a href=# id="sign-in">Sign in</a></li>
+                <li><a href=#>Google Apps</a></li>
+                <li><a href="https://www.google.pt/imghp?hl=pt-PT&tab=wi&authuser=0&ogbl">Imagens</a></li>
+                <li><a href="https://mail.google.com/mail/">Gmail</a></li>  
+            </ul>
+        </nav>
+    </header>
+
     <main>
         <div id="logo">
             <img src="./resources/images/google-logo.png"/>
         </div>
         <form>
+            <i class="material-icons" id="lupa">search</i>
             <input type="search" autofocus>
+            <button class="button-icon"><i class="material-icons">mic</i></button>
+            
         </form>
+        <ul class="search-buttons">
+            <button class="search-button">Pesquisa Google</button>
+            <button class="search-button">Sinto-me com sorte</button>
+        </ul>
     </main>
 </body>
 </html>

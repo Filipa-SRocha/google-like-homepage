@@ -13,6 +13,11 @@ li{
     font-size: 15px;
     
 }
+ 
+#nav-bar{
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
 
 #sign-in{
     background-color: blue;
@@ -37,11 +42,58 @@ form{
 }
 
 input{
-    width: 400px;
-    height: 25px;
-    border-radius: 10px;
+    width: 500px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid rgb(185, 184, 184);
+    padding-left: 45px;
 }
 input:focus{
     outline: none;
 }
+input:hover{
+    box-shadow: 1px 1px 5px  rgb(185, 184, 184);
+}
 
+#lupa{
+    display: block;
+    transform: translate(0,90%);
+    width: fit-content;
+    padding: 10px;
+    padding-top: 15px;;
+}
+.material-icons{
+    color:rgb(185, 184, 184);
+    display:block;
+}
+
+.button-icon{
+    width:100px;
+    height:fit-content;
+    border:none;
+    background-color:transparent;
+    width: fit-content;
+    padding:5px 3px 0px 3px;
+    display: block;
+    transform: translate(1500%,-115%);
+}
+
+.search-buttons{
+    width: fit-content;
+    margin:auto;
+    margin-top:30px;
+}
+
+.search-button{
+    background-color: rgb(255, 255, 255);
+    color:rgb(66, 66, 66);
+    margin-left :20px;
+    margin-right:20px;
+    padding: 8px;
+    border:1px solid transparent;
+}
+
+.search-button:hover{
+    border: 1px solid rgb(167, 166, 166);
+    border-radius: 5px;
+}
